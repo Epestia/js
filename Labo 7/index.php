@@ -10,7 +10,7 @@
 <body>
     <h1>Image gallery :</h1>
     <?php
-        include 'Image.php';
+        include_once 'Image.php';
         include 'ImageUploader.php';
         
         $uploadDir = 'uploads/';
