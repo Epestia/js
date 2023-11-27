@@ -1,3 +1,4 @@
+//asynchrone
 function loadPage(url, targetId) {
     var xhr1 = new XMLHttpRequest();
     var xhr2 = new XMLHttpRequest();
@@ -26,5 +27,6 @@ function loadPage(url, targetId) {
     xhr2.open("GET", "./txt/textFR.txt", true);
     xhr2.responseType = "text";
     xhr2.send();
-
 }
+
+
